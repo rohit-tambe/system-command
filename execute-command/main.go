@@ -19,7 +19,7 @@ func main() {
 	} else {
 		fmt.Printf("executable is in '%s'\n", path)
 	}
-	// out, err := exec.Command("/bin/bash", "/home/billcloud3/GoWorkspace/src/github.com/rohit-tambe/garbage-collection/garbage.sh").Output()
+	// out, err := exec.Command("/bin/bash", gopath).Output()
 	// if err != nil {
 	// 	fmt.Printf("tomcat %s", err.Error())
 	// }
